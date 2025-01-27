@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Add.svg</file>
+        <file>Back.svg</file>
+        <file>Camera.svg</file>
+        <file>IconCalendar.svg</file>
+        <file>IconLightCamera.svg</file>
+        <file>IconLocation.svg</file>
+        <file>Next.svg</file>
+        <file>Plus.svg</file>
+        <file>Point.svg</file>
+        <file>ProjectsFolder.svg</file>
+        <file>Search.svg</file>
+        <file>Settings.svg</file>
+        <file>Cancel.svg</file>
+        <file>Delete.svg</file>
+        <file>Gps.svg</file>
+        <file>GpsDirection.svg</file>
+    </qresource>
+    <qresource prefix="/new/prefix1"/>
+</RCC>

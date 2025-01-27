@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+   "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <!-- Basic App Metadata -->
+    <key>CFBundleName</key>
+    <string>GaiaScout</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.myCompany.first.apptcc-vitor-def</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+        <string>armv7</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+
+    <!-- ***************
+         PERMISSION KEYS
+         *************** -->
+
+    <!-- Camera Usage -->
+    <key>NSCameraUsageDescription</key>
+    <string>This app needs to access your camera to capture photos.</string>
+
+    <!-- Photo Library Usage (Read) -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app needs to access your photo library to select images.</string>
+
+    <!-- Photo Library (Add/Write) -->
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>This app needs to save images to your photo library.</string>
+
+    <!-- Location Usage: "When in Use" -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This app needs your location while in use to display and track your position on the map.</string>
+
+    <!--
+         If you require background location tracking,
+         also add NSLocationAlwaysAndWhenInUseUsageDescription (iOS 13+).
+         But only add this if you truly need background location.
+    -->
+    <!--
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>This app needs background location access to track location even when the app is not open.</string>
+    -->
+
+</dict>
+</plist>

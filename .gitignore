@@ -1,0 +1,104 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python virtual environments
+env/
+venv/
+ENV/
+VENV/
+*.venv
+*.env
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+*.sql
+
+# Test coverage
+.coverage
+*.cover
+*.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.egg-info/
+
+# Distribution and packaging
+build/
+dist/
+*.egg
+*.manifest
+*.spec
+
+# Static files
+staticfiles/
+node_modules/
+bower_components/
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS generated files
+*.stackdump
+*.DS_Store
+
+# Logs
+*.log
+
+# Git conflicts
+*.orig
+
+# Environmental Variables
+.env
+.env.*
+*.env.*
+
+# Ignore Yarn lockfile
+yarn.lock
+
+# Ignore NPM debug files
+npm-debug.log*
+
+# Ignore .cache files
+.cache
+
+# Ignore Python eggs
+*.egg
+.eggs/
+
+# Ignore wheel files
+*.whl
