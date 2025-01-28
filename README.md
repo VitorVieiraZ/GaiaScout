@@ -1,6 +1,6 @@
-# GeoScout Setup Guide
+# GaiaScout Setup Guide
 
-This guide will help you set up the project for development and deployment on Android and iOS platforms using Qt Creator.
+This guide will help you set up GaiaScout for development and deployment on Android and iOS platforms using Qt Creator.
 
 ## Installation
 
